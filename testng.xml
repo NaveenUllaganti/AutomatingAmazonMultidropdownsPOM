@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultiDropdownTestSuite" verbose="1">
+
+    <!-- Test group for multi-dropdown functionality -->
+    <test name="MultiDropdownFunctionalityTests">
+        <classes>
+            <class name="com.hyr.tests.MultiDropdownTest"/> <!-- Run all tests in this class -->
+        </classes>
+    </test>
+
+</suite>
